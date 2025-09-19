@@ -3,21 +3,21 @@
 import AnimatedBox from "../AnimatedBox";
 import personalProfile from "@/data/personal";
 import { MdAlternateEmail } from "react-icons/md";
-import { BsWhatsapp } from "react-icons/bs";
+// import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineContentCopy } from "react-icons/md";
 
 export default function AnimatedContactHeaderBox() {
   const contactOptions = [
-    {
-      label: "Mobile / WhatsApp",
-      value: personalProfile?.contact?.phone,
-      icon: <BsWhatsapp className="size-6 text-green-500" />,
-      link: personalProfile?.contact?.whatsapp,
-    },
+    // {
+    //   label: "Mobile / WhatsApp",
+    //   value: personalProfile?.contact?.phone,
+    //   icon: <BsWhatsapp className="size-6 text-green-500" />,
+    //   link: personalProfile?.contact?.whatsapp,
+    // },
     {
       label: "Email",
       value: personalProfile?.contact?.email,
-      icon: <MdAlternateEmail className="size-6 text-green-500" />,
+      icon: "",
       link: personalProfile?.contact?.email,
     },
   ];
@@ -33,7 +33,7 @@ export default function AnimatedContactHeaderBox() {
           {contactOptions.map((option, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-3 p-2 rounded bg-muted hover:bg-accent transition group cursor-pointer"
+              className="flex items-center gap-3 p-2 rounded hover:bg-accent transition group cursor-pointer"
             >
               <a
                 href={option.link}
