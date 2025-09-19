@@ -1,13 +1,20 @@
-import Image from "next/image";
-import HeroCenter from "@/components/HeroCenter";
+import { SectionProvider } from "@/context/SectionContext";
+import { AnimatedGridMainBackground } from "@/components/animated-ui/AnimatedGridMainBackground";
+import MobileColumn from "@/components/MobileColumn";
+import MainGrid from "@/components/MainGrid";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-background text-foreground">
-      <div className="grid-bg absolute inset-0 -z-10" aria-hidden></div>
-      <div className="pt-20 pb-24">
-        <HeroCenter />
-      </div>
-    </main>
+    <SectionProvider>
+      <AnimatedGridMainBackground>
+        <MainGrid />
+        <MobileColumn />
+        <div className="text-xs pb-4">
+          <p>
+            Made by <span className="italic text-teal-200">Saad Yousuf</span>
+          </p>
+        </div>
+      </AnimatedGridMainBackground>
+    </SectionProvider>
   );
 }
