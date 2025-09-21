@@ -8,7 +8,7 @@ import { MdWork } from "react-icons/md";
 import { PiStudentFill } from "react-icons/pi";
 import { FaCode } from "react-icons/fa";
 import { RiContactsBook3Fill } from "react-icons/ri";
-import { BiDownload } from "react-icons/bi";
+import { CvButton } from "../Button/downloadCVBtn";
 
 export const AnimatedMenuBox = ({ sectionChanged }) => {
   const { activeSection, setActiveSection } = useSectionContext();
@@ -99,7 +99,8 @@ export const AnimatedMenuBox = ({ sectionChanged }) => {
           </AnimatedMenuBoxItem>
         ))}
       </div>
-      <CvButton />
+      <CvButton text="Download CV" />
+      {/* <WavyCvButton text="Download CV" /> */}
     </AnimatedBox>
   );
 };
@@ -132,38 +133,5 @@ const AnimatedMenuBoxItem = ({ children, onClick, selected }) => {
         {children}
       </motion.div>
     </motion.button>
-  );
-};
-
-const CvButton = () => {
-  return (
-    <motion.div
-      className="relative inline-block"
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-    >
-      <div className="absolute inset-0 bg-gradient-to-r from-primary-600 via-accent-teal to-primary-600 rounded-lg"></div>
-      <motion.a
-        href="/CV_2025.pdf"
-        download
-        className="relative flex items-center gap-2 bg-primary-800 font-semibold py-2 px-4 rounded-md transition-colors duration-200 m-1 hover:bg-primary-700"
-        whileHover={{
-          boxShadow: "0px 0px 12px rgb(255,255,255)",
-        }}
-      >
-        <motion.span
-          animate={{ y: [0, -2, 1, 0] }}
-          transition={{ repeat: Infinity, duration: 4 }}
-        >
-          <BiDownload className="size-5" />
-        </motion.span>
-        <motion.span
-          animate={{ y: [0, 2, -1, 0] }}
-          transition={{ repeat: Infinity, duration: 5 }}
-        >
-          Download CV
-        </motion.span>
-      </motion.a>
-    </motion.div>
   );
 };

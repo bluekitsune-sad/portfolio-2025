@@ -28,6 +28,7 @@ A modern, interactive portfolio website showcasing skills, experience, and proje
 - **[Tailwind Merge 3.3.1](https://github.com/dcastil/tailwind-merge)** - Utility for merging Tailwind CSS classes
 - **[clsx 2.1.1](https://github.com/lukeed/clsx)** - Utility for constructing className strings conditionally
 - **[Class Variance Authority 0.7.1](https://cva.style)** - Creating variants with class names
+<!-- - **[Shadcn](https://cva.style)** - Creating variants with class names -->
 
 ### Animations & Interactions
 
