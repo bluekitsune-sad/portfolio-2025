@@ -4,7 +4,7 @@ import { myInfo } from "../../assets/data";
 
 export const AnimatedCertificate = () => (
   <AnimatedBox className="col-span-4 row-span-4 p-0 overflow-hidden">
-    <div className="p-8 space-y-6 h-full bg-zinc-800 rounded-lg shadow-lg">
+    <div className="p-8 space-y-6 h-full rounded-lg shadow-lg">
       {/* Title Section */}
       <h3 className="font-semibold text-zinc-100 text-2xl flex items-center gap-3">
         <TbCertificate className="w-6 h-6 text-zinc-400" />
@@ -14,14 +14,10 @@ export const AnimatedCertificate = () => (
       {/* Certificates List */}
       <div className="space-y-6">
         {myInfo.certifications.map((cert, index) => (
-          <div key={index} className="relative rounded-lg shadow-md">
-            {/* Current Badge (if any) */}
-            {cert.current && (
-              <div className="absolute top-0 right-0 bg-teal-500 text-zinc-900 text-xs p-1 px-2 rounded">
-                Current
-              </div>
-            )}
-
+          <div
+            key={index}
+            className="relative rounded-lg shadow-md shadow-zinc-800"
+          >
             {/* Certificate Details */}
             <h4 className="font-semibold text-zinc-100 text-xl">
               {cert.title}
