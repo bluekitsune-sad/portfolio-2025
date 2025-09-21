@@ -7,6 +7,7 @@ import {
 } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 import { IoIosFootball } from "react-icons/io";
+// import { url } from "inspector";
 
 export const myInfo = {
   name: "Saad Yousuf",
@@ -237,6 +238,12 @@ export const myInfo = {
       title: "MS Office Certification",
       date: "Mar 2019",
       description: "Certification demonstrating knowledge Ms Office tools.",
+    },
+    {
+      title: "More Certification on LinkedIn",
+      date: "",
+      description:
+        "Due to the number of certifications, I have added them on LinkedIn.",
     },
   ],
 };

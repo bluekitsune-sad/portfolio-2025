@@ -1,4 +1,4 @@
-import { Camera } from "lucide-react";
+import { TbCertificate } from "react-icons/tb";
 import { AnimatedBox } from "./AnimatedBox";
 import { myInfo } from "../../assets/data";
 
@@ -7,17 +7,14 @@ export const AnimatedCertificate = () => (
     <div className="p-8 space-y-6 h-full bg-zinc-800 rounded-lg shadow-lg">
       {/* Title Section */}
       <h3 className="font-semibold text-zinc-100 text-2xl flex items-center gap-3">
-        <Camera className="w-6 h-6 text-zinc-400" />
-        Snapshot
+        <TbCertificate className="w-6 h-6 text-zinc-400" />
+        Certification
       </h3>
 
       {/* Certificates List */}
       <div className="space-y-6">
         {myInfo.certifications.map((cert, index) => (
-          <div
-            key={index}
-            className="relative rounded-lg p-3 shadow-md hover:bg-zinc-900 transition-all duration-200"
-          >
+          <div key={index} className="relative rounded-lg shadow-md">
             {/* Current Badge (if any) */}
             {cert.current && (
               <div className="absolute top-0 right-0 bg-teal-500 text-zinc-900 text-xs p-1 px-2 rounded">
@@ -51,7 +48,7 @@ export const AnimatedCertificate = () => (
                   rel="noopener noreferrer"
                   className="text-teal-500 hover:text-teal-400"
                 >
-                  View Credential
+                  Vist Url
                 </a>
               </div>
             )}
