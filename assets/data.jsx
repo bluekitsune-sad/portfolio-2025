@@ -7,6 +7,7 @@ import {
 } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 import { IoIosFootball } from "react-icons/io";
+// import { url } from "inspector";
 
 export const myInfo = {
   name: "Saad Yousuf",
@@ -22,47 +23,47 @@ export const myInfo = {
     // },
     {
       name: "NextJS",
-      children: <TbBrandNextjs className="size-10" />,
+      children: <TbBrandNextjs className="size-10 text-white" />,
       className: "bg-violet-500",
     },
     {
       name: "ReactJS",
-      children: <FaReact className="size-10" />,
+      children: <FaReact className="size-10 text-white" />,
       className: "bg-sky-500",
     },
     {
       name: "ReactNative",
-      children: <TbBrandReactNative className="size-10" />,
+      children: <TbBrandReactNative className="size-10 text-white" />,
       className: "bg-sky-500",
     },
     {
       name: "Docker",
-      children: <FaDocker className="size-10" />,
+      children: <FaDocker className="size-10 text-white" />,
       className: "bg-blue-700",
     },
     {
       name: "Python",
-      children: <FaPython className="size-10" />,
+      children: <FaPython className="size-10 text-white" />,
       className: "bg-blue-700",
     },
     {
       name: "NodeJS",
-      children: <FaNodeJs className="size-10" />,
+      children: <FaNodeJs className="size-10 text-white" />,
       className: "bg-green-500",
     },
     {
       name: "Azure",
-      children: <VscAzure className="size-10" />,
+      children: <VscAzure className="size-10 text-white" />,
       className: "bg-blue-500",
     },
     {
       name: "AWS",
-      children: <FaAws className="size-10" />,
+      children: <FaAws className="size-10 text-white" />,
       className: "bg-orange-500",
     },
     {
       name: "MongoDB",
-      children: <TbBrandMongodb className="size-10" />,
+      children: <TbBrandMongodb className="size-10 text-white" />,
       className: "bg-green-500",
     },
   ],
@@ -237,6 +238,12 @@ export const myInfo = {
       title: "MS Office Certification",
       date: "Mar 2019",
       description: "Certification demonstrating knowledge Ms Office tools.",
+    },
+    {
+      title: "More Certification on LinkedIn",
+      date: "",
+      description:
+        "Due to the number of certifications, I have added them on LinkedIn.",
     },
   ],
 };

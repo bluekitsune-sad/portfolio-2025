@@ -15,7 +15,7 @@ export function AnimatedBox({ className, children, ...rest }) {
         damping: 50,
       }}
       className={twMerge(
-        "bg-zinc-800 border border-zinc-700 rounded-lg p-6 col-span-1",
+        "bg-primary-800 border border-primary-700 rounded-lg p-6 col-span-1 transition-colors",
         className
       )}
       {...rest}

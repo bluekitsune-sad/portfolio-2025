@@ -8,7 +8,7 @@ export const EducationItem = ({ education }) => {
   return (
     <div className="relative">
       {current && (
-        <CurrentBadge className="absolute top-0 right-0 bg-teal-500 text-zinc-900" />
+        <CurrentBadge className="absolute top-0 right-0 bg-accent-teal text-zinc-900" />
       )}
       <div className="flex justify-between items-start">
         <div>
@@ -21,7 +21,7 @@ export const EducationItem = ({ education }) => {
           <MapPin className="w-4 h-4 mr-1" />
           {location}
         </div>
-        <span className="bg-zinc-700 text-zinc-300 px-2 py-1 rounded text-xs">
+        <span className="bg-primary-700 text-zinc-200 px-2 py-1 rounded text-xs">
           {dateRange}
         </span>
       </div>

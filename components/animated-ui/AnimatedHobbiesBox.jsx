@@ -11,13 +11,14 @@ export const AnimatedHobbiesBox = () => {
         </motion.h3>
       </div>
       {myInfo.about_me.hobbies.map((hobbie) => (
-        <div
-          className="col-span-2 flex items-center justify-center gap-2 hover:bg-zinc-700 p-2 rounded"
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          className="col-span-2 flex items-center justify-center gap-2 hover:bg-primary-600 p-2 rounded"
           key={hobbie.name}
         >
           {hobbie.icon}
           {hobbie.name}
-        </div>
+        </motion.div>
       ))}
     </AnimatedBox>
   );
