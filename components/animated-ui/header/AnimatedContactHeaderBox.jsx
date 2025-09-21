@@ -33,7 +33,7 @@ export const AnimatedContactHeaderBox = () => {
           {contactOptions.map((option, idx) => (
             <div
               key={idx}
-              className="flex items-center gap-3 p-2 rounded bg-zinc-800 hover:bg-zinc-700 transition group cursor-pointer"
+              className="flex items-center gap-3 p-2 rounded bg-primary-700 hover:bg-primary-600 transition group cursor-pointer"
             >
               <a
                 href={option.link}
@@ -46,7 +46,7 @@ export const AnimatedContactHeaderBox = () => {
                 <span className="truncate">{option.value}</span>
               </a>
               <button
-                className="ml-2 p-1 rounded hover:bg-zinc-600 transition cursor-pointer"
+                className="ml-2 p-1 rounded hover:bg-primary-600 transition cursor-pointer"
                 title={`Copy ${option.label}`}
                 onClick={() => {
                   navigator.clipboard.writeText(option.value);

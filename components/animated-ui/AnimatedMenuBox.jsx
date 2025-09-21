@@ -121,7 +121,7 @@ const AnimatedMenuBoxItem = ({ children, onClick, selected }) => {
         }}
         transition={{ duration: 0.1 }}
         className={`absolute inset-0 w-full h-full rounded-full pointer-events-none ${
-          selected && !hovered ? "bg-zinc-300" : "bg-zinc-200"
+          selected && !hovered ? "bg-primary-600" : "bg-primary-600"
         }`}
       />
       <motion.div
@@ -142,11 +142,11 @@ const CvButton = () => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-zinc-400 to-teal-400 rounded-lg"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-primary-600 via-accent-teal to-primary-600 rounded-lg"></div>
       <motion.a
         href="/CV_2025.pdf"
         download
-        className="relative flex items-center gap-2 bg-zinc-800 font-semibold py-2 px-4 rounded-md transition-colors duration-200 m-1"
+        className="relative flex items-center gap-2 bg-primary-800 font-semibold py-2 px-4 rounded-md transition-colors duration-200 m-1 hover:bg-primary-700"
         whileHover={{
           boxShadow: "0px 0px 12px rgb(255,255,255)",
         }}

@@ -5,7 +5,7 @@ import { CurrentBadge } from "../ui/CurrentBadge";
 export const ExperienceItem = ({ experience, sm }) => (
   <div className="rounded-lg relative">
     {experience.current && (
-      <CurrentBadge className="absolute top-0 right-0 bg-teal-500 text-zinc-900" />
+      <CurrentBadge className="absolute top-0 right-0 bg-accent-teal text-zinc-900" />
     )}
     <div>
       <h3
