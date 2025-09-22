@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
-import { AnimatedBox } from "./AnimatedBox";
-import { ExperienceItem } from "../common/ExperienceItem";
+import { AnimatedBox } from "../AnimatedBox";
+import { ExperienceItem } from "../../common/ExperienceItem";
 
 export const AnimatedExperienceBox = ({ experience, className, sm }) => {
   return (

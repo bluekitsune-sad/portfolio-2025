@@ -1,5 +1,5 @@
 import { Camera } from "lucide-react";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 import { myInfo } from "../../assets/data";
 
 export const AnimatedSnapshotBox = () => {

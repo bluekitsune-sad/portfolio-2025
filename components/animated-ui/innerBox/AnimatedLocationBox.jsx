@@ -1,6 +1,6 @@
 import { MapPin } from "lucide-react";
-import { AnimatedBox } from "./AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { AnimatedBox } from "../AnimatedBox";
+import { myInfo } from "../../../assets/data";
 
 export const AnimatedLocationBox = () => {
   return (

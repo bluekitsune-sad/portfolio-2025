@@ -1,9 +1,10 @@
 import "../styles/globals.css";
 import { SectionContextProvider } from "../context/SectionContextProvider";
+import { myInfo } from "../assets/data";
 
 export const metadata = {
   title: "Portfolio",
-  description: "Saad Yousuf - I am a Full Stack Developer",
+  description: `${myInfo.name} - ${myInfo.title}`,
   icons: {
     icon: "/icon.svg",
   },

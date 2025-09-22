@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { AnimatedBox } from "./AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { AnimatedBox } from "../AnimatedBox";
+import { myInfo } from "../../../assets/data";
 import { twMerge } from "tailwind-merge";
 
 export const AnimatedSkillsBox = () => {

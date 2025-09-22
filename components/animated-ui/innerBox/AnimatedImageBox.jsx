@@ -1,5 +1,5 @@
-import { myInfo } from "../../assets/data";
-import { AnimatedBox } from "./AnimatedBox";
+import { myInfo } from "../../../assets/data";
+import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedImageBox = () => {
   return (

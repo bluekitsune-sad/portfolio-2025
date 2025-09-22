@@ -1,6 +1,6 @@
 # Portfolio Project
 
-A modern, interactive portfolio website showcasing skills, experience, and projects with smooth animations and responsive design.
+A modern, interactive portfolio website showcasing skills, experience, and projects with smooth animations and responsive design. I had major inspiration from damian briones porfolio
 
 ## Features
 

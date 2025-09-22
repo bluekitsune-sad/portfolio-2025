@@ -1,6 +1,6 @@
 import { Code, ExternalLink } from "lucide-react";
-import { AnimatedBox } from "./AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { AnimatedBox } from "../AnimatedBox";
+import { myInfo } from "../../../assets/data";
 import { SiGithub } from "react-icons/si";
 
 export const AnimatedProjectsBox = ({ currentProjectId }) => {

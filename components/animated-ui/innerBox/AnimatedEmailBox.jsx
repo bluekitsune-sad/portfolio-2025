@@ -1,7 +1,7 @@
 import { MdAlternateEmail } from "react-icons/md";
-import { useSectionContext } from "../../hooks/useSectionContext.js";
-import { AnimatedBox } from "./AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { useSectionContext } from "../../../hooks/useSectionContext.js";
+import { AnimatedBox } from "../AnimatedBox";
+import { myInfo } from "../../../assets/data";
 
 export const AnimatedEmailBox = () => {
   const { activeSection } = useSectionContext();
