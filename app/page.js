@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatedGridMainBackground } from "../components/animated-ui/AnimatedGridMainBackground";
+import { AnimatedGridMainBackground } from "../components/animated-ui/ineractiveBackground/AnimatedGridMainBackground";
 import { MobileColumn } from "../components/MobileColumn";
 import { VentoGrid } from "../components/VentoGrid";
 

@@ -1,6 +1,6 @@
 import { TbCertificate } from "react-icons/tb";
-import { AnimatedBox } from "./AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { AnimatedBox } from "../AnimatedBox";
+import { myInfo } from "../../../assets/data";
 
 export const AnimatedCertificate = () => (
   <AnimatedBox className="col-span-4 row-span-4 p-0 overflow-hidden">

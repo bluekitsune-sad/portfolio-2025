@@ -1,5 +1,5 @@
 import { EducationItem } from "../common/EducationItem";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedEducationBox = ({ education }) => {
   return (

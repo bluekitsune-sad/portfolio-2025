@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../animated-ui/AnimatedBox";
 import { Menu } from "lucide-react";
 
 export function AnimatedHamburgerButton({ setIsOpen }) {

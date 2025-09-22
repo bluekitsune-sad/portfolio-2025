@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 import { useState } from "react";
 import { useSectionContext } from "../../hooks/useSectionContext";
 import { IoHome } from "react-icons/io5";

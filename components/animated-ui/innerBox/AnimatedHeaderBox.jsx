@@ -1,9 +1,9 @@
-import { AnimatedContactHeaderBox } from "./header/AnimatedContactHeaderBox";
-import { AnimatedAboutMeHeaderBox } from "./header/AnimatedAboutMeHeaderBox";
-import { AnimatedExperienceHeaderBox } from "./header/AnimatedExperienceHeaderBox";
-import { AnimatedTitleHeaderBox } from "./header/AnimatedTitleHeaderBox";
+import { AnimatedContactHeaderBox } from "../header/AnimatedContactHeaderBox";
+import { AnimatedAboutMeHeaderBox } from "../header/AnimatedAboutMeHeaderBox";
+import { AnimatedExperienceHeaderBox } from "../header/AnimatedExperienceHeaderBox";
+import { AnimatedTitleHeaderBox } from "../header/AnimatedTitleHeaderBox";
 import { useSectionContext } from "../../hooks/useSectionContext.js";
-import { AnimatedEducationHeaderBox } from "./header/AnimatedEducationHeaderBox";
+import { AnimatedEducationHeaderBox } from "../header/AnimatedEducationHeaderBox";
 
 export const AnimatedHeaderBox = () => {
   const { activeSection } = useSectionContext();

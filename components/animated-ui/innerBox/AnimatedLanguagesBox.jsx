@@ -1,6 +1,6 @@
 import { FaLanguage } from "react-icons/fa";
 import { useSectionContext } from "../../hooks/useSectionContext.js";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedLanguagesBox = () => {
   const { activeSection } = useSectionContext();

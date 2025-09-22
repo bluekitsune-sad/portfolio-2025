@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { AnimatedBox } from "./AnimatedBox";
+import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedRightLeftBox = ({ onLeftClick, onRightClick }) => {
   return (
