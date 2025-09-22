@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { AnimatedBox } from "../AnimatedBox";
 import { useState } from "react";
-import { useSectionContext } from "../../hooks/useSectionContext";
+import { useSectionContext } from "../../../hooks/useSectionContext";
 import { IoHome } from "react-icons/io5";
 import { TbUserScan } from "react-icons/tb";
 import { MdWork } from "react-icons/md";
 import { PiStudentFill } from "react-icons/pi";
 import { FaCode } from "react-icons/fa";
 import { RiContactsBook3Fill } from "react-icons/ri";
-import { CvButton } from "../Button/downloadCVBtn";
+import { CvButton } from "../../Button/downloadCVBtn";
 
 export const AnimatedMenuBox = ({ sectionChanged }) => {
   const { activeSection, setActiveSection } = useSectionContext();

@@ -1,4 +1,4 @@
-import { EducationItem } from "../common/EducationItem";
+import { EducationItem } from "../../common/EducationItem";
 import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedEducationBox = ({ education }) => {

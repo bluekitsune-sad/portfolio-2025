@@ -1,4 +1,4 @@
-import { SkillTag } from "../ui/SkillTag";
+import { SkillTag } from "../../ui/SkillTag";
 import { AnimatedBox } from "../AnimatedBox";
 
 export const AnimatedFreelanceBox = ({ freelanceJobs }) => {

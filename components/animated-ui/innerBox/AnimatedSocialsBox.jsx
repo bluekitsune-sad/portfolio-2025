@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { AnimatedBox } from "../AnimatedBox";
-import { myInfo } from "../../assets/data";
+import { myInfo } from "../../../assets/data";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export const AnimatedSocialsBox = () => {
