@@ -58,7 +58,7 @@ A modern, interactive portfolio website showcasing skills, experience, and proje
 - **Component Architecture**: Modular component structure with animated UI components
 - **Data Management**: Centralized data management with JavaScript configuration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/                    # Next.js App Router
